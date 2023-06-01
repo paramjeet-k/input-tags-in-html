@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body style="background-color: rgb(189, 183, 183);">
+
+  <h1>Forms in HTML</h1>
+
+  <form action="/signup.js" method="get">
+    <label for="useremail">Enter Your Email</label>
+    <!-- <label for="useremail">Enter Your Email</label>
+    <label for="useremail">Enter Your Email</label> -->
+    <input type="email" placeholder="Enter your email" name="" id="">
+    <input type="email" value="h@h.com" name="useremail" id="useremail">
+    <input type="password" name="" id="">
+    <input type="color" name="" id="    ">
+    <input type="month" name="" id="">
+    <input type="number" name="" id="">
+    <!-- <textarea name="" id="" cols="30" rows="5"></textarea>
+     -->
+     <br>
+     <label for="Hii">Hii</label>
+    <input type="checkbox" name="" id="" value="1">
+    <br>
+    <input type="radio" name="" id=""  value="">
+    <select name="" id="">
+      <option value="2"> Superman</option>
+      <option value="1"> man</option>
+    </select>
+    <label for="Hello">Hello</label>
+    <input type="checkbox" name="" id="" value="2">
+
+    <input type="submit" value="Take all data to server">
+  </form>
+    
+</body>
+</html>
